@@ -9,10 +9,17 @@
     </suppress>
     <!-- org.axonframework:axon-core:jar:3.4.3 -->
     <suppress>
-   <notes><![CDATA[
-   file name: xstream-1.4.10.jar
-   ]]></notes>
-   <packageUrl regex="true">^pkg:maven/com\.thoughtworks\.xstream/xstream@.*$</packageUrl>
-   <cve>CVE-2013-7285</cve>
-</suppress>
+       <notes><![CDATA[
+       file name: xstream-1.4.10.jar
+       ]]></notes>
+       <packageUrl regex="true">^pkg:maven/com\.thoughtworks\.xstream/xstream@.*$</packageUrl>
+       <cve>CVE-2013-7285</cve>
+    </suppress>
+    <suppress>
+       <notes><![CDATA[
+       file name: xstream-1.4.10.jar
+       ]]></notes>
+       <packageUrl regex="true">^pkg:maven/com\.thoughtworks\.xstream/xstream@.*$</packageUrl>
+       <cve>CVE-2019-10173</cve>
+    </suppress>
 </suppressions>
