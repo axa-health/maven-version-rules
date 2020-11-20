@@ -20,7 +20,8 @@
        <notes><![CDATA[
        file name: bcprov-jdk15on-1.52.jar
        ]]></notes>
-       <packageUrl regex="true">^pkg:maven/org\.bouncycastle/bcprov\-jdk15on@.*$</packageUrl>
+       <gav regex="true">^.*bcprov-jdk15on-1.52.*$</gav>
+       <!--<packageUrl regex="true">^pkg:maven/org\.bouncycastle/bcprov\-jdk15on@.*$</packageUrl>-->
        <cve>CVE-2018-1000613</cve>
     </suppress>
     <!-- io.prismic:java-kit:jar:2.0.0 -->
