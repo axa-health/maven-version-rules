@@ -12,8 +12,6 @@
         <ignoreVersion type="regex">.*[\-_\.][Rr][Cc][\-_\.]?[0-9]*</ignoreVersion>
         <!-- Milestones -->
         <ignoreVersion type="regex">.*[\-_\.][Mm][0-9]?</ignoreVersion>
-        <ignoreVersion type="regex">.*-M[0-9]</ignoreVersion>
-        <ignoreVersion type="regex">.*\-M[0-9]</ignoreVersion>
     </ignoreVersions>
     <rules>
         <rule groupId="org.hibernate.validator" artifactId="hibernate-validator">
@@ -28,6 +26,11 @@
                 <ignoreVersion type="regex">6\.1\..*</ignoreVersion>
                 <ignoreVersion type="regex">6.0.2[0-9].Final</ignoreVersion>
                 <ignoreVersion type="regex">6.0.1[4-9].Final</ignoreVersion>
+            </ignoreVersions>
+        </rule>
+        <rule groupId="org.axonframework" artifactId="*">
+            <ignoreVersions>
+                <ignoreVersion>4.0-M2</ignoreVersion>
             </ignoreVersions>
         </rule>
     </rules>
