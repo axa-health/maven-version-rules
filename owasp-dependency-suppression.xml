@@ -96,6 +96,31 @@
        <cve>CVE-2018-1258</cve>
        <cve>CVE-2020-5407</cve>
     </suppress>
+    <suppress>
+       <notes><![CDATA[
+       file name: api-gateway-0.0.2-SNAPSHOT.jar: spring-security-crypto-5.2.7.RELEASE.jar
+       ]]></notes>
+       <filePath regex="true">^.*\bspring\-security\-crypto\-5\.2\.7\.RELEASE\.jar$</filePath>
+       <cve>CVE-2018-1258</cve>
+       <cve>CVE-2020-5407</cve>
+    </suppress>
+    <!-- org.springframework.boot:spring-boot-starter-web:jar:2.2.11.RELEASE -->
+    <suppress>
+       <notes><![CDATA[
+       file name: calculationservice-0.0.2-SNAPSHOT.war: spring-security-data-5.2.7.RELEASE.jar
+       ]]></notes>
+       <filePath regex="true">^.*\bspring\-security\-data\-5\.2\.7\.RELEASE\.jar$</filePath>
+       <cve>CVE-2018-1258</cve>
+       <cve>CVE-2020-5407</cve>
+    </suppress>
+    <suppress>
+       <notes><![CDATA[
+       file name: spring-security-data-5.2.7.RELEASE.jar
+       ]]></notes>
+       <filePath regex="true">^.*\bspring\-security\-data\-5\.2\.7\.RELEASE\.jar$</filePath>
+       <cve>CVE-2018-1258</cve>
+       <cve>CVE-2020-5407</cve>
+    </suppress>
     <!-- org.springframework.boot:spring-boot-starter-web:jar:2.2.11.RELEASE -->
     <suppress>
        <notes><![CDATA[
