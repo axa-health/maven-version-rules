@@ -55,6 +55,12 @@
        <vulnerabilityName>CVE-2019-16335</vulnerabilityName>
        <vulnerabilityName>CVE-2019-17267</vulnerabilityName>
     </suppress>
-    
-    
+    <!-- org.springframework.security:spring-security-web:jar:5.2.7 -->
+    <suppress>
+       <notes><![CDATA[
+       file name: spring-security-core-5.2.7.RELEASE.jar
+       ]]></notes>
+       <packageUrl regex="true">^pkg:maven/org\.springframework\.security/spring\-security\-core@.*$</packageUrl>
+       <cve>CVE-2018-1258</cve>
+    </suppress>
 </suppressions>
