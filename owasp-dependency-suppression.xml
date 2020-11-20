@@ -80,6 +80,13 @@
        <packageUrl regex="true">^pkg:maven/org\.springframework\.security/spring\-security\-web@.*$</packageUrl>
        <cve>CVE-2018-1258</cve>
     </suppress>
+    <suppress>
+       <notes><![CDATA[
+       file name: authserver-0.0.2-SNAPSHOT.jar: spring-security-web-5.2.7.RELEASE.jar
+       ]]></notes>
+       <filePath regex="true">^.*\bspring\-security\-web\-5\.2\.7\.RELEASE\.jar$</filePath>
+       <cve>CVE-2018-1258</cve>
+    </suppress>
     <!-- org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.2.6.RELEASE -->
     <suppress>
        <notes><![CDATA[
@@ -87,7 +94,7 @@
        ]]></notes>
        <packageUrl regex="true">^pkg:maven/org\.springframework\.security/spring\-security\-crypto@.*$</packageUrl>
        <cve>CVE-2018-1258</cve>
-        <cve>CVE-2020-5407</cve>
+       <cve>CVE-2020-5407</cve>
     </suppress>
     <!-- org.springframework.boot:spring-boot-starter-web:jar:2.2.11.RELEASE -->
     <suppress>
