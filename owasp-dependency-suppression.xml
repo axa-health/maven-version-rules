@@ -132,6 +132,14 @@
     </suppress>
     <suppress>
        <notes><![CDATA[
+       file name: spring-cloud-starter-security-2.2.1.RELEASE.jar
+       ]]></notes>
+       <packageUrl regex="true">^pkg:maven/org\.springframework\.cloud/spring\-cloud\-starter\-security@.*$</packageUrl>
+       <cve>CVE-2018-1258</cve>
+       <cve>CVE-2020-5407</cve>
+    </suppress>
+    <suppress>
+       <notes><![CDATA[
        file name: spring-security-jwt-1.0.11.RELEASE.jar
        ]]></notes>
        <packageUrl regex="true">^pkg:maven/org\.springframework\.security/spring\-security\-jwt@.*$</packageUrl>
