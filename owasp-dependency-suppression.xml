@@ -70,4 +70,20 @@
        <packageUrl regex="true">^pkg:maven/org\.springframework\.security/spring\-security\-web@.*$</packageUrl>
        <cve>CVE-2018-1258</cve>
     </suppress>
+    <!-- org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.2.6.RELEASE -->
+    <suppress>
+       <notes><![CDATA[
+       file name: spring-security-crypto-5.2.2.RELEASE.jar
+       ]]></notes>
+       <packageUrl regex="true">^pkg:maven/org\.springframework\.security/spring\-security\-crypto@.*$</packageUrl>
+       <cve>CVE-2018-1258</cve>
+    </suppress>
+    <!-- org.springframework.boot:spring-boot-starter-web:jar:2.2.11.RELEASE -->
+    <suppress>
+       <notes><![CDATA[
+       file name: spring-security-config-5.2.7.RELEASE.jar
+       ]]></notes>
+       <packageUrl regex="true">^pkg:maven/org\.springframework\.security/spring\-security\-config@.*$</packageUrl>
+       <cve>CVE-2018-1258</cve>
+    </suppress>
 </suppressions>
