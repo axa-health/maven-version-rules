@@ -63,4 +63,11 @@
        <packageUrl regex="true">^pkg:maven/org\.springframework\.security/spring\-security\-core@.*$</packageUrl>
        <cve>CVE-2018-1258</cve>
     </suppress>
+    <suppress>
+       <notes><![CDATA[
+       file name: spring-security-web-5.2.7.RELEASE.jar
+       ]]></notes>
+       <packageUrl regex="true">^pkg:maven/org\.springframework\.security/spring\-security\-web@.*$</packageUrl>
+       <cve>CVE-2018-1258</cve>
+    </suppress>
 </suppressions>
