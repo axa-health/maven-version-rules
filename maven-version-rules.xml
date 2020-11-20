@@ -11,7 +11,7 @@
         <!-- Release Candidates -->
         <ignoreVersion type="regex">.*[\-_\.][Rr][Cc][\-_\.]?[0-9]*</ignoreVersion>
         <!-- Milestones -->
-        <ignoreVersion type="regex">.*[\-_\.][Mm][0-9]+</ignoreVersion>
+        <ignoreVersion type="regex">.*[\-_\.][Mm][0-9]?</ignoreVersion>
     </ignoreVersions>
     <rules>
         <rule groupId="org.hibernate.validator" artifactId="hibernate-validator">
