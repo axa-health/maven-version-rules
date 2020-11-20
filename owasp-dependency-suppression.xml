@@ -124,6 +124,22 @@
     <!-- org.springframework.boot:spring-boot-starter-web:jar:2.2.11.RELEASE -->
     <suppress>
        <notes><![CDATA[
+       file name: spring-cloud-security-2.2.1.RELEASE.jar
+       ]]></notes>
+       <packageUrl regex="true">^pkg:maven/org\.springframework\.cloud/spring\-cloud\-security@.*$</packageUrl>
+       <cve>CVE-2018-1258</cve>
+       <cve>CVE-2020-5407</cve>
+    </suppress>
+    <suppress>
+       <notes><![CDATA[
+       file name: spring-security-jwt-1.0.11.RELEASE.jar
+       ]]></notes>
+       <packageUrl regex="true">^pkg:maven/org\.springframework\.security/spring\-security\-jwt@.*$</packageUrl>
+       <cve>CVE-2018-1258</cve>
+       <cve>CVE-2020-5407</cve>
+    </suppress>
+    <suppress>
+       <notes><![CDATA[
        file name: spring-security-config-5.2.7.RELEASE.jar
        ]]></notes>
        <packageUrl regex="true">^pkg:maven/org\.springframework\.security/spring\-security\-config@.*$</packageUrl>
