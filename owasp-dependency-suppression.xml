@@ -20,7 +20,7 @@
        <notes><![CDATA[
        file name: bcprov-jdk15on-1.52.jar
        ]]></notes>
-       <gav regex="true">^.*bcprov-jdk15on-1.52.*$</gav>
+       <packageUrl regex="true">^.*bcprov-jdk15on-1.52.*$</packageUrl>
        <!--<packageUrl regex="true">^pkg:maven/org\.bouncycastle/bcprov\-jdk15on@.*$</packageUrl>-->
        <cve>CVE-2018-1000613</cve>
     </suppress>
@@ -31,6 +31,7 @@
        ]]></notes>
        <packageUrl regex="true">^pkg:maven/io\.netty/netty\-all@.*$</packageUrl>
        <cve>CVE-2019-20445</cve>
+       <cve>CVE-2019-20444</cve>
     </suppress>
     <!-- com.netflix.zuul:zuul-core:jar:1.3.1 -->
     <suppress>
