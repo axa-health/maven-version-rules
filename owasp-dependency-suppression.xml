@@ -48,12 +48,15 @@
        <vulnerabilityName>CVE-2017-15095</vulnerabilityName>
        <vulnerabilityName>CVE-2017-17485</vulnerabilityName>
        <vulnerabilityName>CVE-2017-7525</vulnerabilityName>
+       <vulnerabilityName>CVE-2018-5968</vulnerabilityName>
        <vulnerabilityName>CVE-2018-14718</vulnerabilityName>
        <vulnerabilityName>CVE-2018-7489</vulnerabilityName>
        <vulnerabilityName>CVE-2019-14540</vulnerabilityName>
        <vulnerabilityName>CVE-2019-14893</vulnerabilityName>
        <vulnerabilityName>CVE-2019-16335</vulnerabilityName>
        <vulnerabilityName>CVE-2019-17267</vulnerabilityName>
+       <vulnerabilityName>CVE-2020-10672</vulnerabilityName>
+       <vulnerabilityName>CVE-2020-10673</vulnerabilityName>
     </suppress>
     <!-- org.springframework.security:spring-security-web:jar:5.2.7 -->
     <suppress>
@@ -61,6 +64,13 @@
        file name: spring-security-core-5.2.7.RELEASE.jar
        ]]></notes>
        <packageUrl regex="true">^pkg:maven/org\.springframework\.security/spring\-security\-core@.*$</packageUrl>
+       <cve>CVE-2018-1258</cve>
+    </suppress>
+    <suppress>
+       <notes><![CDATA[
+       file name: api-gateway-0.0.2-SNAPSHOT.jar: spring-security-core-5.2.7.RELEASE.jar
+       ]]></notes>
+       <filePath regex="true">^.*\bspring\-security\-core\-5\.2\.7\.RELEASE\.jar$</filePath>
        <cve>CVE-2018-1258</cve>
     </suppress>
     <suppress>
